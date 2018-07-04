@@ -1,6 +1,8 @@
 setwd("C:/Users/liufanl/Downloads")
 
-library(tidyverse) # for getting at parts of data in a easy-to-understand way to replicate
+library(tidyverse)
+
+# in this file, library dplyr is used for manipulate data
 
 farmData <- read.csv("farm_data.csv")
 
